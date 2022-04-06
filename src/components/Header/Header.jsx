@@ -2,6 +2,7 @@ import React from 'react';
 import CTA from './CTA';
 import HERO from '../../assets/me.png';
 import HeaderSocial from './HeaderSocial';
+import {BsFillArrowRightCircleFill} from 'react-icons/bs'
 import './Header.css'
 
 const Header = () => {
@@ -19,7 +20,7 @@ const Header = () => {
                     <img src={HERO} alt="" />
                 </div>
 
-                <a href="#contact" className='scroll__down'>Scroll Down</a>
+                <a href="#contact" className='scroll__down'> <span className="scroll__down_text">Scroll Down</span> <BsFillArrowRightCircleFill /></a>
             </div>
         </header>
     );

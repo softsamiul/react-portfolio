@@ -58,15 +58,37 @@ header{
 
 .scroll__down{
     position: absolute;
-    right: -23rem;
+    display: flex;
+    align-items: center;
+    right: -2.3rem;
     bottom: 5rem;
     transform: rotate(90deg);
     font-size: 0.9rem;
     font-weight: 300;
 }
+.scroll__down_text{
+    margin-right: 10px;
+}
 
 
+/* ------------Media Queries (Medium Screen) ------------*/
 
+@media screen and (max-width: 1024px) {
+    header{
+        height: 68vh;
+    }
+}
+
+/* ------------Media Queries (Small Screen) ------------*/
+
+@media screen and (max-width: 600px) {
+    header{
+        height: 100vh;
+    }
+    .header__socials, .scroll__down{
+        display: none;
+    }
+}
 
 
 
