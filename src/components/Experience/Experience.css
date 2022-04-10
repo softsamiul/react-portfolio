@@ -1,0 +1,152 @@
+.experience__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding-top: 4rem;
+}
+.experience__tech{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 1rem;
+    text-align: center;
+    position: relative;
+}
+.experience__tech:after{
+    content: '';
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background: var(--color-primary);
+}
+.icon__container{
+    /* background: #7a7a8045; */
+    padding: 0.4rem;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+.tech__icon{
+    font-size: 40px;
+    background: #8512F7;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 70px;
+}
+.node__js{
+    background: #21A366;
+}
+.html__icon{
+    background: #E86229;
+}
+.css__icon{
+    background: #2862E9;
+}
+.sass__icon{
+    background: #E187B1;
+}
+.tailwind__css{
+    background: #151C2B;
+    color: #06ADC9;
+}
+.js_icon{
+    background: #EFD81D;
+}
+.react__js{
+    background: #202020;
+    color: #05BCD9;
+}
+.next__js{
+    background: #000000;
+}
+.redux__icon{
+    background: #fff;
+    color: #7046B2;
+}
+.webPack__icon{
+    background: #fff;
+    color: #1B72B6;
+}
+.firebase__icon{
+    background: #fff;
+    color: #F29E13;
+}
+.github__icon{
+    background: #000;
+}
+.bitbucket__icon{
+    background: #247DF2;
+}
+.express__js{
+    background: #676767;
+    color: #EAD41C;
+}
+.bootstrap_icon{
+    background: linear-gradient(#8512F7, transparent);
+}
+
+.bootstrap_icon{
+    background: #8512F7;
+    /* border-radius: 50%;
+    padding: 10px;
+    font-size: 50px; */
+}
+.mongo__db{
+    background: #fff;
+    color: #548E33;
+}
+/* .experience__tech{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.experience__tech > div{
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--trnsition);
+}
+.experience__tech > div:hover{
+    background: transparent;
+    border-color: var(--color-primary-varient);
+    cursor: default;
+}
+.experience__tech > div > h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+.backend__title{
+    margin-top: 1rem;
+}
+.experience__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 1.5rem;
+}
+.experience__details{
+    display: flex;
+    gap: 1rem;
+}
+.experience__details > div {
+    margin-top: -8px;
+} */
+
+.experience__job{
+    display: grid;
+    grid-template-columns: 20% 70%;
+    gap: 10%;
+    margin: 2rem 0 2.5rem;
+}
+.job__period .time-stamps{
+    text-align: left;
+}
+.itern__tag{
+    color: var(--color-primary);
+}
