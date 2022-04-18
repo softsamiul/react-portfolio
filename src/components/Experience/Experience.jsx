@@ -196,11 +196,9 @@ const Experience = () => {
           </div>
           <div className="job__details">
             <h2 className="job__title"> <small className="itern__tag">Junior</small> Software Engineer</h2>
-            <h6 className="company__name"> Mordor Intelligence</h6>
+            <h6 className="company__name"> <a href="https://www.mordorintelligence.com/" target="_blank">Mordor Intelligence</a></h6>
             <p className="job__description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque optio beatae sit soluta qui dolorem aliquam perferendis
-              quidem, labore officia.
+              After successfully completing the intern I promoted to <strong>Junior Software Engineer</strong>. I'm really enjoying working here.
             </p>
           </div>
           <div className="job__period">
@@ -209,11 +207,9 @@ const Experience = () => {
           </div>
           <div className="job__details">
             <h2 className="job__title"> <small className="itern__tag">Intern</small> Software Engineer</h2>
-            <h6 className="company__name"> Mordor Intelligence</h6>
+            <h6 className="company__name"> <a href="https://www.mordorintelligence.com/" target="_blank">Mordor Intelligence</a></h6>
             <p className="job__description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque optio beatae sit soluta qui dolorem aliquam perferendis
-              quidem, labore officia.
+              I joined <strong>Mordor Intelligence</strong> as a <strong>Intern Software Engineer.</strong> I worked as in intern for 3 month and gain lot of tools and technolories. Beside this a learn how to wrok in production, I think this was the best thing I learn from there.
             </p>
           </div>
         </div>

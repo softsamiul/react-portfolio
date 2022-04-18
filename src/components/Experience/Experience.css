@@ -150,3 +150,27 @@
 .itern__tag{
     color: var(--color-primary);
 }
+
+
+
+/* ------------Media Queries (Medium Screen) ------------*/
+
+@media screen and (max-width: 1024px) {
+    .portfolio__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+}
+
+/* ------------Media Queries (Small Screen) ------------*/
+
+@media screen and (max-width: 600px) {
+    .experience__container{
+        grid-template-columns: 1fr;
+        padding-top: 0;
+    }
+    .experience__tech{
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: .5rem;
+    }
+}

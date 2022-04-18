@@ -18,21 +18,19 @@ const About = () => {
                         <div className="single_about_box frontend__develoer">
                             <h4>Front End Developer</h4>
                             <hr />
-                            <p className='about__box__text'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium rem est, porro a deleniti quia vero cupiditate commodi voluptas facilis.</p>
+                            <p className='about__box__text'>I am a frontend developer with a passion for building beautiful and functional web applications.</p>
                         </div>
                         <div className="single_about_box full__stack__developer">
                             <h4>Full Stack Developer</h4>
                             <hr />
-                            <p className='about__box__text'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium rem est, porro a deleniti quia vero cupiditate commodi voluptas facilis.</p>
+                            <p className='about__box__text'>I am a <strong>frontend focused Full Stack Developer</strong> with a passion for building beautiful and functional web applications.</p>
                         </div>
                         {/* <div className="single_about_box">
                             <h4>React Developer</h4>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium rem est, porro a deleniti quia vero cupiditate commodi voluptas facilis.</p>
                         </div> */}
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus accusantium, maiores quam libero eius maxime recusandae dicta non accusamus dolor at facere aliquam.</p>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ab dignissimos quisquam reprehenderit hic. Vero at quidem quia iure ipsum!</p>
+                    <p className='about__me__text'>I'm Samiul Islam is <strong>a highly motivated individual</strong> with a passion for <strong>constantly developing skills</strong> and <strong>growing professionally.</strong> bachelor degree in Computer Science & Engg. from Camellia Institute Of Technology (CIT), Kolkata and also completed diploma engineering in Computer Science & Technology from Dumkal Polytechnic. A fast learner, always on the lookout for opportunities.</p>
 
                     <a href="#contact" className='btn btn-primary about__action__btn'> Let's Talk </a>
                 </div>

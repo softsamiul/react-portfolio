@@ -32,6 +32,9 @@
 }
 .about__me_right > p{
     text-align: justify;
+    background: var(--color-bg);
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
 }
 .single_about_box{
     border: 1px solid transparent;
@@ -46,15 +49,19 @@
 .about__box__text{
     padding-top: 1rem;
     text-align: justify;
+    font-size: 0.9rem;
 }
 .frontend__develoer{
     background-color: var(--color-bg-variant);
 }
 .full__stack__developer{
-    background-color: var(--color-bg-variant);
+    background-color: var(--color-primary);
 }
 .about__action__btn{
     margin-top: 1rem;
+}
+.about__me__text{
+    font-size: .9rem;
 }
 /* ------------Media Queries (Medium Screen) ------------*/
 
@@ -75,6 +82,9 @@
 /* ------------Media Queries (Small Screen) ------------*/
 
 @media screen and (max-width: 600px) {
+    .about__box__container{
+        grid-template-columns: repeat(1, 1fr);
+    }
     .about__me__left{
         width: 65%;
         margin: 0 auto 3rem;
