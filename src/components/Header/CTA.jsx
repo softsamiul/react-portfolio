@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../../assets/cv.pdf';
+import CV from '../../assets/Samiul-Islam-resume-software-engineer-07-03-22.pdf';
 import {HiDownload} from 'react-icons/hi'
 import {BsChatLeftTextFill} from 'react-icons/bs'
 

@@ -30,7 +30,10 @@ const About = () => {
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium rem est, porro a deleniti quia vero cupiditate commodi voluptas facilis.</p>
                         </div> */}
                     </div>
-                    <p className='about__me__text'>I'm Samiul Islam is <strong>a highly motivated individual</strong> with a passion for <strong>constantly developing skills</strong> and <strong>growing professionally.</strong> bachelor degree in Computer Science & Engg. from Camellia Institute Of Technology (CIT), Kolkata and also completed diploma engineering in Computer Science & Technology from Dumkal Polytechnic. A fast learner, always on the lookout for opportunities.</p>
+                    <p className='about__me__text'>I'm Samiul Islam is <strong>a highly motivated individual</strong> with a passion for <strong>constantly developing skills</strong> and <strong>growing professionally.</strong> Prusuing bachelor degree in Computer Science & Enggineering from Camellia Institute Of Technology (CIT), Kolkata and also completed diploma engineering in Computer Science & Technology from Dumkal Polytechnic. </p>
+                    <p className='about__me__text'>
+                    A fast learner, always on the lookout for opportunities.
+                    </p>
 
                     <a href="#contact" className='btn btn-primary about__action__btn'> Let's Talk </a>
                 </div>

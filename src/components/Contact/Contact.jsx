@@ -1,9 +1,43 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2'
 import './Contact.css';
 import {MdEmail} from 'react-icons/md';
 import {BsMessenger, BsWhatsapp} from 'react-icons/bs';
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_dtldmij', 'template_qfngqpq', form.current, 'qf0otCBuQfjFF0HnY')
+        .then((result) => {
+            console.log(result.text);
+
+            Swal.fire({
+                title: 'Email Send Successfully!',
+                showClass: {
+                  popup: 'animate__animated animate__fadeInDown'
+                },
+                hideClass: {
+                  popup: 'animate__animated animate__fadeOutUp'
+                }
+              })
+        }, (error) => {
+            console.log(error.text);
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Something went wrong!',
+                footer: '<p>Send Email to: softsamiul@gmail.com</p>'
+              })
+        });
+  };
+
+
+
+
     return (
         <section id="contact">
             <h5>Get In Touch</h5>
@@ -36,7 +70,7 @@ const Contact = () => {
                     </article>
                 </div>
                 {/* END OF CONTACT OPTIONS */}
-                <form action="" className='contact__form'>
+                <form action="" className='contact__form' ref={form} onSubmit={sendEmail}>
                     <input type="text" name='name' placeholder='Enter name'/>
                     <input type="email" name='email' placeholder='Enter email'/>
                     <textarea name="message" id="" cols="30" rows="10" placeholder='Enter your message'></textarea>
