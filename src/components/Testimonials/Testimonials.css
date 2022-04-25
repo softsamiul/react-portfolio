@@ -1,6 +1,7 @@
 .container__testimonials{
     width: 40%;
     margin: 0 auto;
+    height: 280px;
 }
 
 .client__avatar{
@@ -45,12 +46,16 @@
 
 @media screen and (max-width: 600px) {
     .container.container__testimonials{
-        width: var(--container-width-sm);
+        width: 90% !important;
+        height: 280px !important;
     }
-    .client__review{
-        width: var(--container-width-sm);
+    .mySwiper{
+        width: 90% !important;
     }
-    .swiper.swiper-initialized.swiper-vertical.swiper-pointer-events.container__testimonials.mySwiper.swiper-backface-hidden{
-        width: 86%;
-    }
+    /* .swiper.swiper-initialized.swiper-vertical.swiper-pointer-events.container__testimonials.mySwiper.swiper-backface-hidden{
+        width: 86% !important;
+    } */
+    /* .swiper.swiper-initialized.swiper-vertical.swiper-pointer-events.container__testimonials.mySwiper.swiper-backface-hidden{
+        height: 280px;
+    } */
 }
