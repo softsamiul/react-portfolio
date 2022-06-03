@@ -1,6 +1,6 @@
 import React from "react";
 import CTA from "./CTA";
-import HERO from "../../assets/me.png";
+import HERO from "../../assets/softsamiul-me.png";
 import HeaderSocial from "./HeaderSocial";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import Typewriter from "typewriter-effect";
