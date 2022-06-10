@@ -190,7 +190,7 @@ const Experience = () => {
 
         <div className="experience__job">
           
-          <div className="job__period">
+          {/* <div className="job__period">
             <h4 className="time-stamps">2022</h4>
             <h6><small>24<sup>th</sup> April</small> - <small>Present</small></h6>
           </div>
@@ -200,10 +200,10 @@ const Experience = () => {
             <p className="job__description">
               After successfully completing the intern I promoted to <strong>Junior Software Engineer</strong>. I'm really enjoying working here.
             </p>
-          </div>
+          </div> */}
           <div className="job__period">
             <h4 className="time-stamps">2022</h4>
-            <h6><small>24<sup>th</sup> Jan</small> - <small>24<sup>th</sup> April</small></h6>
+            <h6><small>24<sup>th</sup> Jan</small> - <small>Present</small></h6>
           </div>
           <div className="job__details">
             <h2 className="job__title"> <small className="itern__tag">Intern</small> Software Engineer</h2>
