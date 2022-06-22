@@ -4,10 +4,18 @@ header{
     overflow: hidden;
 }
 
+/* .main-heading{
+    font-family: 'Lobster', cursive;
+} */
 .header__container{
     text-align: center;
     height: 100%;
     position: relative;
+}
+.dynamic-text{
+    /* font-family: 'Lobster', cursive; */
+    color: #fff;
+    font-size: 16px;
 }
 
 /* ---------CTA --------------- */
@@ -42,7 +50,7 @@ header{
 /* --------- Hero --------------- */
 
 .hero{
-    background: linear-gradient(var(--color-primary), transparent);
+    /* background: linear-gradient(var(--color-primary), transparent); */
     width: 22rem;
     height: 30rem;
     position: absolute;
@@ -51,7 +59,7 @@ header{
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
 }
 
 /* --------- Scroll Bottom --------------- */

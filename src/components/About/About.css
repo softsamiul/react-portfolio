@@ -1,8 +1,10 @@
 .about__container{
-    display: grid;
+    /* display: grid;
     grid-template-columns: 30% 60%;
-    gap: 5%;
+    gap: 5%; */
     padding: 2rem 0;
+    width: 60%;
+    margin: 0 auto;
 }
 .about__me__left{
     width: 100%;
@@ -21,9 +23,6 @@
 .about_me_img:hover{
     transform: rotate(0deg);
 }
-.about__me_right{
-    
-}
 .about__box__container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -40,6 +39,7 @@
     border: 1px solid transparent;
     padding: 20px;
     border-radius: 20px;
+    width: 80%;
     
 }
 .single_about_box > h4{

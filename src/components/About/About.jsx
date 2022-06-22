@@ -9,10 +9,10 @@ const About = () => {
             <h5>Get To Know</h5>
             <h2>About Me</h2>
 
-            <div className="container about__container">
-                <div className="about__me__left">
+            <div className="about__container">
+                {/* <div className="about__me__left">
                     <img src={ME} alt="" className='about_me_img'/>
-                </div>
+                </div> */}
                 <div className="about__me_right">
                     <div className="about__box__container">
                         <div className="single_about_box frontend__develoer">

@@ -1,6 +1,6 @@
 import React from "react";
 import CTA from "./CTA";
-import HERO from "../../assets/softsamiul-me.png";
+import HERO from "../../assets/20220622_211345.png";
 import HeaderSocial from "./HeaderSocial";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import Typewriter from "typewriter-effect";
@@ -11,8 +11,8 @@ const Header = () => {
     <header>
       <div className="container header__container">
         <h5>Hello I'm</h5>
-        <h1>Samiul Islam</h1>
-        <h5 className="text-light">
+        <h1 className="main-heading">Samiul Islam</h1>
+        <h5 className=" dynamic-text">
             <Typewriter
             options={{
                 strings: ["Software Engineer", 'Frontend Developer' ,'Frontend Focused Full Stack Developer'],
