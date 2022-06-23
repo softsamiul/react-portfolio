@@ -82,6 +82,9 @@
 /* ------------Media Queries (Small Screen) ------------*/
 
 @media screen and (max-width: 600px) {
+    .about__container {
+        width: 85%;
+    }
     .about__box__container{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -91,5 +94,8 @@
     }
     .about__me_right > p {
         margin: 1.5rem 0;
+    }
+    .single_about_box{
+        width: 100%;
     }
 }

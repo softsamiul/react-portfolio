@@ -209,7 +209,7 @@ const Experience = () => {
             <h2 className="job__title"> <small className="itern__tag">Intern</small> Software Engineer</h2>
             <h6 className="company__name"> <a href="https://www.mordorintelligence.com/" target="_blank">Mordor Intelligence</a></h6>
             <p className="job__description">
-              I joined <strong>Mordor Intelligence</strong> as a <strong>Intern Software Engineer.</strong> I worked as in intern for 3 month and gain lot of tools and technolories. Beside this a learn how to wrok in production, I think this was the best thing I learn from there.
+              I joined <strong>Mordor Intelligence</strong> as an <strong>Intern Software Engineer.</strong>Worked on - <span className="worded__tech__stack">"JavaScript, React, Next.js, ExpressJS, EJS, Ant Design, Material UI, Styled Component and many more..."</span> 
             </p>
           </div>
         </div>

@@ -106,6 +106,12 @@ header{
         justify-content: center;
         align-items: center;
     }
+    .hero{
+        margin: 0 auto;
+        margin-top: 1.5rem;
+        width: 15rem;
+        left: calc(50% - 7.5rem);
+    }
 }
 
 

@@ -150,7 +150,9 @@
 .itern__tag{
     color: var(--color-primary);
 }
-
+.worded__tech__stack{
+    color: var(--color-primary);
+}
 
 
 /* ------------Media Queries (Medium Screen) ------------*/
