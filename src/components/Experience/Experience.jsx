@@ -203,11 +203,11 @@ const Experience = () => {
           </div> */}
           <div className="job__period">
             <h4 className="time-stamps">2022</h4>
-            <h6><small>24<sup>th</sup> Jan</small> - <small>Present</small></h6>
+            <h5><small>24<sup>th</sup> Jan</small> - <small>Present</small></h5>
           </div>
           <div className="job__details">
             <h2 className="job__title"> <small className="itern__tag">Intern</small> Software Engineer</h2>
-            <h6 className="company__name"> <a href="https://www.mordorintelligence.com/" target="_blank">Mordor Intelligence</a></h6>
+            <h5 className="company__name"> <a href="https://www.mordorintelligence.com/" target="_blank">Mordor Intelligence</a></h5>
             <p className="job__description">
               I joined <strong>Mordor Intelligence</strong> as an <strong>Intern Software Engineer.</strong>Working on - <span className="worded__tech__stack">"JavaScript, React, Next.js, ExpressJS, EJS, Ant Design, Material UI, Styled Component and many more..."</span> 
             </p>
