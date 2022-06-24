@@ -1,18 +1,15 @@
 import React from 'react';
-
-// import ME from '../../assets/me-about2.png';
+import Zoom from 'react-reveal/Zoom';
 import './About.css'
 
 const About = () => {
     return (
         <section id="about">
+            <Zoom>
             <h5>Get To Know</h5>
             <h2>About Me</h2>
 
             <div className="about__container">
-                {/* <div className="about__me__left">
-                    <img src={ME} alt="" className='about_me_img'/>
-                </div> */}
                 <div className="about__me_right">
                     <div className="about__box__container">
                         <div className="single_about_box frontend__develoer">
@@ -38,6 +35,7 @@ const About = () => {
                     <a href="#contact" className='btn btn-primary about__action__btn'> Let's Talk </a>
                 </div>
             </div>
+            </Zoom>
         </section>
     );
 };
