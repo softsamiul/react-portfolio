@@ -13,7 +13,7 @@ const Contact = () => {
 
         emailjs.sendForm('service_dtldmij', 'template_qfngqpq', form.current, 'qf0otCBuQfjFF0HnY')
         .then((result) => {
-            console.log(result.text);
+            console.log(result);
 
             Swal.fire({
                 title: 'Email Send Successfully!',
@@ -23,7 +23,7 @@ const Contact = () => {
                 hideClass: {
                   popup: 'animate__animated animate__fadeOutUp'
                 }
-              })
+            })
         }, (error) => {
             console.log(error.text);
             Swal.fire({
@@ -33,6 +33,10 @@ const Contact = () => {
                 footer: '<p>Send Email to: softsamiul@gmail.com</p>'
               })
         });
+
+        e.target["name"].value = "";
+        e.target["email"].value = "";
+        e.target["message"].value = "";
   };
 
 
@@ -71,8 +75,8 @@ const Contact = () => {
                 </div>
                 {/* END OF CONTACT OPTIONS */}
                 <form action="" className='contact__form' ref={form} onSubmit={sendEmail}>
-                    <input type="text" name='name' placeholder='Enter name'/>
-                    <input type="email" name='email' placeholder='Enter email'/>
+                    <input type="text" name='name' placeholder='Enter name' required/>
+                    <input type="email" name='email' placeholder='Enter email' required/>
                     <textarea name="message" id="" cols="30" rows="10" placeholder='Enter your message'></textarea>
                     <button type="submit" className='btn btn-primary send__msg__btn'>Send Message</button>
                 </form>
