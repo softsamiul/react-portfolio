@@ -1,5 +1,12 @@
 import ReactDOM from 'react-dom';
+import React from "react"
 import App from './App';
-import './index.css'
+import './index.css';
+import { Zoom } from 'react-preloaders2';
 
-ReactDOM.render(<App/>, document.querySelector('#root'))
+ReactDOM.render(
+    <React.Fragment>
+      <App/>
+      <Zoom background="blur" color={'#f7f7f7'}/>
+    </React.Fragment>, document.querySelector('#root')
+)
