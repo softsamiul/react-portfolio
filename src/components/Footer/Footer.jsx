@@ -34,7 +34,7 @@ const Footer = () => {
                 </ul>
             </LightSpeed>
 
-            <Zoom bottom>
+            <Zoom>
                 <div className='footer__socials'>
                     <a href="https://www.linkedin.com/in/softsamiul/" target="_blank"> <BsLinkedin className='foot_icon'/></a>
                     <a href="https://github.com/softsamiul" target="_blank"><FaGithub className='foot_icon'/></a>

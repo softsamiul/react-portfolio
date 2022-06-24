@@ -31,8 +31,9 @@ const About = () => {
                     <p className='about__me__text'>
                     A fast learner, always on the lookout for opportunities.
                     </p>
-
-                    <a href="#contact" className='btn btn-primary about__action__btn'> Let's Talk </a>
+                    <Zoom>
+                        <a href="#contact" className='btn btn-primary about__action__btn'> Let's Talk </a>
+                    </Zoom>
                 </div>
             </div>
             </Zoom>
