@@ -25,7 +25,10 @@ const Contact = () => {
                 hideClass: {
                   popup: 'animate__animated animate__fadeOutUp'
                 }
-            })
+            });
+            e.target["name"].value = "";
+            e.target["email"].value = "";
+            e.target["message"].value = "";
         }, (error) => {
             console.log(error.text);
             Swal.fire({
@@ -82,14 +85,16 @@ const Contact = () => {
                 </Fade>
                 {/* END OF CONTACT OPTIONS */}
 
-                <Fade right>
+                {/* <Fade right> */}
                     <form action="" className='contact__form' ref={form} onSubmit={sendEmail}>
-                        <input type="text" name='name' placeholder='Enter name' required/>
-                        <input type="email" name='email' placeholder='Enter email' required/>
-                        <textarea name="message" id="" cols="30" rows="10" placeholder='Enter your message'></textarea>
-                        <button type="submit" className='btn btn-primary send__msg__btn'>Send Message</button>
+                        <Fade right>
+                            <input type="text" name='name' placeholder='Enter name' required/>
+                            <input type="email" name='email' placeholder='Enter email' required/>
+                            <textarea name="message" id="" cols="30" rows="10" placeholder='Enter your message'></textarea>
+                            <button type="submit" className='btn btn-primary send__msg__btn'>Send Message</button>
+                        </Fade>
                     </form>
-                </Fade>
+                
             </div>
         </section>
     );
