@@ -131,7 +131,7 @@ const Experience = () => {
             </div>
             <div className="job__details">
             {/* <small className="itern__tag">Intern</small> */}
-              <h2 className="job__title"> Software Engineer</h2>
+              <h2 className="job__title"> Software Engineer - Consultant</h2>
               <h5 className="company__name"> <a href="https://www.mordorintelligence.com/" target="_blank">Mordor Intelligence</a></h5>
               <p className="job__description">
                 I joined <strong>Mordor Intelligence</strong> as a<strong>Software Engineer.</strong> Working on - <span className="worded__tech__stack">"JavaScript, React, Next.js, ExpressJS, EJS, Ant Design, Material UI, Styled Component and many more..."</span> 
