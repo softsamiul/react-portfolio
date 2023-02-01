@@ -20,6 +20,13 @@ const Portfolio = () => {
                         <img src={item.thumbnail} alt="" />
                     </div>
                     <h3>{item.title}</h3>
+                    
+                    <ul className='techstack-wrapper'>
+                        {
+                            item && item.techStack && item.techStack.length > 0 && item.techStack.map((techItem, index)=> <li key={index}>{techItem}</li>)
+                        }
+                    </ul>
+                    
                     <div className="portfolio__item__cta">
                         <a href={item.github} className='btn' target='_blank'>Github</a>
                         <a href={item.liveLink} target='_blank' className='btn btn-primary'>Live Demo</a>
