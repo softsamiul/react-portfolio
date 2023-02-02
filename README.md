@@ -1,4 +1,4 @@
-### [https://www.softsamiul.tech/](#Portfolio)
+### [Portfolio](https://www.softsamiul.tech)
 
 
 I'm Samiul Islam a highly motivated individual with a passion for constantly developing skills and growing professionally. Frontend-focused Full Stack Developer.
