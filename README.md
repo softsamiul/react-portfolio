@@ -1,4 +1,5 @@
-### <a href="https://www.softsamiul.tech/", target="_blank">Portfolio</a>
+### [https://www.softsamiul.tech/](#Portfolio)
+
 
 I'm Samiul Islam a highly motivated individual with a passion for constantly developing skills and growing professionally. Frontend-focused Full Stack Developer.
 
