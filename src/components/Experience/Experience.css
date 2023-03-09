@@ -154,6 +154,11 @@
     color: var(--color-primary);
 }
 
+.working-key-point{
+    list-style-type: disc !important;
+    margin-left: 20px;
+}
+
 
 /* ------------Media Queries (Medium Screen) ------------*/
 

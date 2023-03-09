@@ -7,8 +7,6 @@ import { DiJavascript1 } from "react-icons/di";
 import { SiBootstrap, SiTailwindcss, SiMongodb, SiFirebase, SiExpress, SiNextdotjs, SiReact, SiRedux, SiWebpack } from "react-icons/si";
 import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
-
-
 import "./Experience.css";
 
 const Experience = () => {
@@ -134,7 +132,15 @@ const Experience = () => {
               <h2 className="job__title"> Software Engineer - Consultant</h2>
               <h5 className="company__name"> <a href="https://www.mordorintelligence.com/" target="_blank">Mordor Intelligence</a></h5>
               <p className="job__description">
-                I joined <strong>Mordor Intelligence</strong> as a<strong>Software Engineer.</strong> Working on - <span className="worded__tech__stack">"JavaScript, React, Next.js, ExpressJS, EJS, Ant Design, Material UI, Styled Component and many more..."</span> 
+                I joined <strong>Mordor Intelligence</strong> as a <strong>Software Engineer.</strong> Working on - <span className="worded__tech__stack">"JavaScript, React, Next.js, ExpressJS, EJS, Ant Design, Material UI, Styled Component and many more..."</span> 
+
+                <h4 style={{marginTop: "15px"}}>Responsibilities:</h4>
+                <ul className="working-key-point">
+                    <li>Writing clean and standard and reusable code</li>
+                    <li>Fixing any problems in previously written code</li>
+                    <li>Revamp the Intelligence Center website</li>
+                    <li>Primary developer of the Mordor Intelligence website</li>
+                </ul>
               </p>
             </div>
           </div>
