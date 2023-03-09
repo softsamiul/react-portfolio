@@ -137,3 +137,11 @@ img{
 .testimonials{
     border-radius: 30px !important;
 }
+.client__review{
+    color: var(--color-light);
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto;
+    text-align: justify;
+}

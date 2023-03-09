@@ -27,7 +27,16 @@ const About = () => {
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium rem est, porro a deleniti quia vero cupiditate commodi voluptas facilis.</p>
                         </div> */}
                     </div>
-                    <p className='about__me__text'>I'm Samiul Islam is <strong>a highly motivated individual</strong> with a passion for <strong>constantly developing skills</strong> and <strong>growing professionally.</strong> Prusuing bachelor degree in Computer Science & Enggineering from Camellia Institute Of Technology (CIT), Kolkata and also completed diploma engineering in Computer Science & Technology from Dumkal Polytechnic. </p>
+                    <p className='about__me__text'>Hope you're doing well 🙂<br />
+                     I'm Samiul Islam <strong>a highly motivated individual</strong> with a passion for <strong>constantly developing skills</strong> and <strong>growing professionally.</strong> 
+                     </p>
+
+                     <p>
+                     working as a Software Engineer - Consultant at an Indian start-up for the last 1 year. I've worked with React, Redux, Next.js, Node.js, Express.js, Ejs and many more web tools and technologies. I'm working on their main website <a href="https://www.mordorintelligence.com">[https://www.mordorintelligence.com]</a> as a primary Frontend developer and managing this website for the last 1 year, serving daily 40k - 45k users.
+                     </p>
+
+                     <p>
+                     Pursuing (Final year) a bachelor's degree in Computer Science & Engineering from Camellia Institute Of Technology (CIT), Kolkata and completed a diploma in engineering in Computer Science & Technology from Dumkal Polytechnic.</p>
                     <p className='about__me__text'>
                     A fast learner, always on the lookout for opportunities.
                     </p>

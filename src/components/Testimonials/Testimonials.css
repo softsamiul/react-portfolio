@@ -1,7 +1,7 @@
 .container__testimonials{
     width: 40%;
     margin: 0 auto;
-    height: 280px;
+    height: 350px;
 }
 
 .client__avatar{
@@ -29,10 +29,12 @@
     display: block;
     width: 80%;
     margin: 0.8rem auto;
+    text-align: justify !important;
+    margin-top: 20px !important;
 }
 
 .swiper.swiper-initialized.swiper-vertical.swiper-pointer-events.container__testimonials.mySwiper.swiper-backface-hidden{
-    height: 280px;
+    height: 350px;
 }
 
 /* ================================= */
@@ -47,7 +49,13 @@
 @media screen and (max-width: 600px) {
     .container.container__testimonials{
         width: 90% !important;
-        height: 280px !important;
+        height: 500px !important;
+    }
+    .swiper.swiper-initialized.swiper-vertical.swiper-pointer-events.container__testimonials.mySwiper.swiper-backface-hidden {
+        height: 450px;
+    }
+    .client__review{
+        width: 100% !important;
     }
     .mySwiper{
         width: 90% !important;
