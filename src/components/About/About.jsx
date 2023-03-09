@@ -32,7 +32,7 @@ const About = () => {
                      </p>
 
                      <p>
-                     working as a Software Engineer - Consultant at an Indian start-up for the last 1 year. I've worked with React, Redux, Next.js, Node.js, Express.js, Ejs and many more web tools and technologies. I'm working on their main website <a href="https://www.mordorintelligence.com">[https://www.mordorintelligence.com]</a> as a primary Frontend developer and managing this website for the last 1 year, serving daily 40k - 45k users.
+                     Working as a Software Engineer - Consultant at an Indian start-up for the last 1 year. I've worked with React, Redux, Next.js, Node.js, Express.js, Ejs and many more web tools and technologies. I'm working on their main website <a href="https://www.mordorintelligence.com">[https://www.mordorintelligence.com]</a> as a primary Frontend developer and managing this website for the last 1 year, serving daily 40k - 45k users.
                      </p>
 
                      <p>
