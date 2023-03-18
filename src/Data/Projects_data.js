@@ -1,4 +1,5 @@
-import image1 from "../assets/portfolio1.png"
+// import image1 from "../assets/portfolio1.png"
+import image1 from "../assets/image-project.png"
 import image2 from "../assets/portfolio2.png"
 import image3 from "../assets/portfolio3.png"
 import image4 from "../assets/portfolio4.png"
@@ -6,13 +7,21 @@ import image5 from "../assets/portfolio5.png"
 import image6 from "../assets/portfolio6.png"
 
 const ProjectData = [
+    // {
+    //     id: 1,
+    //     title: 'Ease Your Trip—Travel/Tourism Web App',
+    //     thumbnail: image1,
+    //     github:'https://github.com/softsamiul/ease-your-trip-client',
+    //     liveLink: 'https://react-burj-al-arab-54bca.web.app/',
+    //     techStack: ["React", "React Router", "Tailwind css", "NodeJS", "MongoDb", "Firebase"]
+    // },
     {
         id: 1,
-        title: 'Ease Your Trip—Travel/Tourism Web App',
+        title: 'Imagee: Craft Your Dreams with Imagee - Web App',
         thumbnail: image1,
-        github:'https://github.com/softsamiul/ease-your-trip-client',
-        liveLink: 'https://react-burj-al-arab-54bca.web.app/',
-        techStack: ["React", "React Router", "Tailwind css", "NodeJS", "MongoDb", "Firebase"]
+        github:'https://github.com/softsamiul/imagee',
+        liveLink: 'https://imagee.10xprogrammer.com/',
+        techStack: ["React", "Tailwind css", "ExpressJS", "MongoDb", "OpenAI API"]
     },
     {
         id:2,
