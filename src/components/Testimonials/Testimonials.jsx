@@ -29,7 +29,7 @@ const Testimonials = () => {
                     <div className="client__avatar">
                         <img src={ClientIMG} alt="" />
                     </div>
-                    <h5 className='client__name'>Digvijay Singh</h5>
+                    <a href="https://www.linkedin.com/in/digvijay-singh-thakur-b78967177" style={{color:"#fff"}} target="_blank"><h5 className='client__name'>Digvijay Singh</h5></a>
                     <h6>Senior Software Engineer at <a href="https://www.mordorintelligence.com" style={{marginBottom:"15px"}} >Mordor Intelligence</a></h6>
                     <small className="client__review" >
                         <blockquote>
