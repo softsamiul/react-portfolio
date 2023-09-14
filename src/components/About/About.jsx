@@ -28,17 +28,16 @@ const About = () => {
                         </div> */}
                     </div>
                     <p className='about__me__text'>Hope you're doing well 🙂<br />
-                     I'm Samiul Islam <strong>a highly motivated individual</strong> with a passion for <strong>constantly developing skills</strong> and <strong>growing professionally.</strong> 
+                     I'm Samiul Islam, a Software Engineer with 1.9 years of experience, specializing in Frontend Development. In my role as a Frontend Developer, I've had the privilege of serving as a key contributor to <a href="https://www.mordorintelligence.com">[https://www.mordorintelligence.com]</a>, where I help create captivating web experiences using a toolkit that includes JavaScript, ES6, React, Redux, Next.js, ExpressJS, EJS and more. 
                      </p>
 
                      <p>
-                     Working as a Software Engineer - Consultant at an Indian start-up for the last 1 year. I've worked with React, Redux, Next.js, Node.js, Express.js, Ejs and many more web tools and technologies. I'm working on their main website <a href="https://www.mordorintelligence.com">[https://www.mordorintelligence.com]</a> as a primary Frontend developer and managing this website for the last 1 year, serving daily 40k - 45k users.
+                     My work reaches and enriches the experiences of a substantial user base, with [https://www.mordorintelligence.com/] welcoming 40-45k users daily.
                      </p>
+                    <p>I hold a bachelor's degree in Computer Science & Engineering from Camellia Institute Of Technology (CIT), Kolkata, and also completed a diploma in Computer Science & Technology from Dumkal Polytechnic.</p>
 
                      <p>
-                     Pursuing (Final year) a bachelor's degree in Computer Science & Engineering from Camellia Institute Of Technology (CIT), Kolkata and completed a diploma in engineering in Computer Science & Technology from Dumkal Polytechnic.</p>
-                    <p className='about__me__text'>
-                    A fast learner, always on the lookout for opportunities.
+                         Passionate about coding, I'm always eager to embrace new challenges and expand my skill set. Let's connect and explore how we can collaborate to bring exciting projects to life. Discover more about me at 👇  <a href="https://www.softsamiul.tech">[https://www.softsamiul.tech]</a>.
                     </p>
                     <Zoom>
                         <a href="#contact" className='btn btn-primary about__action__btn'> Let's Talk </a>
