@@ -1,6 +1,6 @@
 import React from 'react';
-import CV from '../../assets/Samiul-Islam-Frontend-Engineer-React-18-03-23.pdf';
-import {HiDownload} from 'react-icons/hi'
+import { HiDownload } from 'react-icons/hi';
+import CV from '../../assets/Samiul-Islam-Frontend-Engineer-React-15-03-24.pdf';
 
 const CTA = () => {
     return (
