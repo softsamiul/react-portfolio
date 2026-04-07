@@ -24,9 +24,9 @@
     transform: rotate(0deg);
 }
 .about__box__container{
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 10px; */
     padding-bottom: 1rem;
 }
 .about__me_right > p{
@@ -39,7 +39,7 @@
     border: 1px solid transparent;
     padding: 20px;
     border-radius: 20px;
-    width: 80%;
+    /* width: 80%; */
     
 }
 .single_about_box > h4{

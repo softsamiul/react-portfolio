@@ -15,14 +15,14 @@ const ProjectData = [
     //     liveLink: 'https://react-burj-al-arab-54bca.web.app/',
     //     techStack: ["React", "React Router", "Tailwind css", "NodeJS", "MongoDb", "Firebase"]
     // },
-    {
-        id: 1,
-        title: 'Imagee: Craft Your Dreams with Imagee - Web App',
-        thumbnail: image1,
-        github:'https://github.com/softsamiul/imagee',
-        liveLink: 'https://imagee.10xprogrammer.com/',
-        techStack: ["React", "Tailwind css", "ExpressJS", "MongoDb", "OpenAI API"]
-    },
+    // {
+    //     id: 1,
+    //     title: 'Imagee: Craft Your Dreams with Imagee - Web App',
+    //     thumbnail: image1,
+    //     github:'https://github.com/softsamiul/imagee',
+    //     liveLink: 'https://imagee.10xprogrammer.com/',
+    //     techStack: ["React", "Tailwind css", "ExpressJS", "MongoDb", "OpenAI API"]
+    // },
     {
         id:2,
         title: "MediCare's Kolkata—Healthcare Web App",
